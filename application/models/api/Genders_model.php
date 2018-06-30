@@ -11,6 +11,7 @@ class Genders_model extends CI_Model {
     public function __construct() {
         parent::__construct();
         $this->load->database();
+        //aaa
     }
 
     private function _getTablesQuery($array = array()) {
